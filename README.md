@@ -6,12 +6,12 @@ All core parsing logic inside the `sdp/` directory is © 2020-present NeKzor and
 and is used here under the MIT license.
 
 My additions are limited to:
-- `parser.ts` – a wrapper that extracts gold splits and personal-best (PB) splits  
-  from Portal/Source Engine demos and outputs LiveSplit-compatible `.lss` files.
+- `parser.ts` – a wrapper that extracts gold splits and pb splits  
+  from Portal2 fullgame-runs demos and outputs LiveSplit-compatible `.lss` files.
 
 ---
 
-## TL;DR
+## Usage (TL;DR)
 
 **Open PowerShell**  
    - Navigate to this repo’s root (where `parser.ts` is located).  
