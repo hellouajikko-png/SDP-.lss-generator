@@ -92,7 +92,7 @@ const SEGMENT_NAMES = [
 
 // Container Ride offset and Gold-split filter treshold (such a crutch honestly) 
 const PARSER_OFFSET_SEC = 5 * 60 + 10 + 0.550; // 310.55 seconds
-const MIN_GOLD_TIME = 20; // seconds minimum for raw per-map time
+const MIN_GOLD_TIME = 17; // seconds minimum for raw per-map time
 
 // Handling cutscene splits (parser output for these is usually incorrect)
 const FORCE_ALWAYS_FINISHED = new Set<string>(["sp_a2_bts6", "sp_a3_00"]);
@@ -981,3 +981,4 @@ const lss = buildLssXmlFromGroups(groups, goldsMap ?? undefined);
     console.error("Failed to write .lss output file:", err);
   }
 })();
+
