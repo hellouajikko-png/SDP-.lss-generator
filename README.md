@@ -2,16 +2,15 @@
 
 This project adds a .lss generation that builds on  
 [NeKzor’s Source Demo Parser (sdp)](https://github.com/NeKzor/sdp).  
-All core parsing logic inside the `sdp/` directory is © 2020-present NeKzor and contributors  
-and is used here under the MIT license.
+All core parsing logic inside the `parser/` directory
 
 My additions are limited to:
-- `parser.ts` – a wrapper that extracts gold splits and personal-best (PB) splits  
-  from Portal/Source Engine demos and outputs LiveSplit-compatible `.lss` files.
+- `parser.ts` – a wrapper that extracts gold splits and personal-best splits  
+  from Portal 2 Fullgame NoSla demos and outputs LiveSplit-compatible `.lss` files.
 
 ---
 
-## TL;DR
+## TL;DR (How to use)
 
 **Open PowerShell**  
    - Navigate to this repo’s root (where `parser.ts` is located).  
